@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors({ origin: '*' }));
 
 //Rutas
-app.use('/grupo5ispp/api', require('../routes/routes.routes'))
+app.use('/comfystream/api', require('../routes/routes.routes'))
 
 //Inicio
 function iniciarServidor() {
