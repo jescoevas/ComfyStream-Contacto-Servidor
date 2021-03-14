@@ -7,7 +7,7 @@ router.post('/enviarCorreo', async(req, resp) => {
     const { email, asunto, cuerpo } = req.body
     console.log(email)
     var transporter = nodemailer.createTransport({
-        service: 'outlook',
+        service: 'gmail',
         auth: {
             user: 'comfystreamcontact@gmail.com',
             pass: 'grupo5ispp'
