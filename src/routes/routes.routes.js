@@ -10,7 +10,7 @@ router.post('/enviarCorreo', async(req, resp) => {
         service: 'gmail',
         auth: {
             user: 'comfystreamcontact@gmail.com',
-            pass: 'grupo5ispp'
+            pass: 'Grupo2ispp.'
         }
     });
 
